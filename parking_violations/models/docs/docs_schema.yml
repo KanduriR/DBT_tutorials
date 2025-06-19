@@ -1,0 +1,18 @@
+version : 2
+
+models:
+  - name: bronze_parking_violation_codes
+    description: Raw data representing the violation codes and their fees.
+    
+    columns:
+       - name: violation_code
+         description: Code violated
+      
+      - name: definition
+        description: Definition of the violatied code
+      
+      - name: manhattan_96th_st_below
+        description: Describes the pin code where the violation happened in manhattan_96th_st_below
+      
+      - name: all_other_areas
+        description: Pincode in other areas
